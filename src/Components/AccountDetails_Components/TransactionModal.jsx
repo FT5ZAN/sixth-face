@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { addTransaction, editTransaction } from "../../Store/Accounts/accountsSlice";
 import DateTimePicker from "./DateTimePicker";
 import { X, TrendingUp, TrendingDown} from "lucide-react";
-import { useToast } from "../../Context/ToastContext.jsx";
+import { useToast } from "../../context/ToastContext.jsx";
 function TransactionModal({ isOpen, onClose, accountId, editingTransaction }) {
   const dispatch = useDispatch();
   const [date, setDate] = useState(new Date());
