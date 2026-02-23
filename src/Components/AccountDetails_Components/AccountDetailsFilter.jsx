@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaFilter, FaFilterCircleXmark } from "react-icons/fa6";
-import { Calendar } from "@/components/ui/calendar.jsx";
+import { Calendar } from "../ui/calendar.jsx";
 import { createPortal } from "react-dom";
 
 function AccountDetailsFilter({ filters, setFilters }) {

@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { format } from "date-fns";
 
-import { Button } from "@/components/ui/button.jsx";
-import { Calendar } from "@/components/ui/calendar.jsx";
-import { Input } from "@/components/ui/input.jsx";
+import { Button } from "../ui/button.jsx";
+import { Calendar } from "../ui/calendar.jsx";
+import { Input } from "../ui/input.jsx";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover.jsx";
+} from "../ui/popover.jsx";
 
 import { ChevronDownIcon } from "lucide-react"
 
